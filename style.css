@@ -1,9 +1,12 @@
+#background {
+    background-color: rgb(189, 198, 227);
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
 body {
     text-align: center;
 }
 
 main {
-    background-color: rgb(189, 198, 227);
-    padding-top: 50px;
-    padding-bottom: 50px;
 }
