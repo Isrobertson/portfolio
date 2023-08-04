@@ -5,6 +5,24 @@
     text-shadow: 3px 4px 2px rgba(0, 0, 0, 0.292);
     color: rgb(44, 44, 44);
     
+    animation: shadow-visibility 3s steps(40, end);
+}
+
+/* work on text and shadow appearance animations */
+#subtext {
+    font-weight: bold;
+
+    animation: visibility 3s steps(40, end);
+}
+
+@keyframes visibility {
+    from { color: rgba(0, 0, 0, 0)}
+    to { color: black;}
+}
+
+@keyframes shadow-visibility {
+    from { text-shadow: 3px 4px 2px rgba(0, 0, 0, 0); }
+    to { text-shadow: 3px 4px 2px rgba(0, 0, 0, 0.292); }
 }
 
 body {
