@@ -4,25 +4,35 @@
     padding-bottom: 150px;
     text-shadow: 3px 4px 2px rgba(0, 0, 0, 0.292);
     color: rgb(44, 44, 44);
-    
+}
+
+header h1{
+    animation: visibility 3s steps(40, end);
     animation: shadow-visibility 3s steps(40, end);
 }
 
-/* work on text and shadow appearance animations */
-#subtext {
+header p {
     font-weight: bold;
+    animation: visibility 5s steps(40, end);
+    animation: shadow-visibility 5s steps(40, end);
+}
 
-    animation: visibility 3s steps(40, end);
+/* work on text and shadow appearance animations */
+.text_animate {
+    font-weight: bold;
+    animation: visibility 5s steps(40, end);
+    animation: shadow-visibility 5s steps(40, end);
+    
 }
 
 @keyframes visibility {
-    from { color: rgba(0, 0, 0, 0)}
-    to { color: black;}
+    from { opacity: 0;}
+    to { opacity: 1;}
 }
 
 @keyframes shadow-visibility {
-    from { text-shadow: 3px 4px 2px rgba(0, 0, 0, 0); }
-    to { text-shadow: 3px 4px 2px rgba(0, 0, 0, 0.292); }
+    from { opacity: 0;}
+    to { opacity: 1;}
 }
 
 body {
