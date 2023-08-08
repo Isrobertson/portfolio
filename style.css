@@ -16,12 +16,12 @@ body {
 #card {
 }
 
-header h1{
+main h1{
     animation: visibility 3s steps(40, end);
     animation: shadow-visibility 3s steps(40, end);
 }
 
-header p {
+main p {
     font-weight: bold;
     animation: visibility 6s steps(40, end);
     animation: shadow-visibility 6s steps(40, end);
