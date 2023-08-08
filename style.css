@@ -1,17 +1,19 @@
-body {
-    background-image: linear-gradient(darkgrey, lightgrey);
-    height: 100vh;
+html {
+    height: 100%;
 }
 
-#background {
-    background-color: rgb(125, 129, 142);
+body {
+    background-image: linear-gradient(darkgrey, lightgrey);
+    height: 100%;
+    width: 100%;
     padding-top: 150px;
     padding-bottom: 150px;
     text-shadow: 3px 4px 2px rgba(0, 0, 0, 0.292);
     color: rgb(0, 0, 0);
-    border-style: solid;
-    border-color: black;
-    border-radius: 15px;
+    overflow: hidden; /* disables scrolling */
+}
+
+#card {
 }
 
 header h1{
