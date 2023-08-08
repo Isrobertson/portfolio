@@ -1,38 +1,36 @@
-html {
-    height: 100%;
+nav {
+    
 }
 
 body {
-    background-image: linear-gradient(darkgrey, lightgrey);
-    height: 100%;
-    width: 100%;
+    padding-left: 10%;
+    background-image: linear-gradient(rgb(40, 41, 51), rgb(103, 106, 125));
+    height: 100vh;
     padding-top: 150px;
     padding-bottom: 150px;
-    text-shadow: 3px 4px 2px rgba(0, 0, 0, 0.292);
-    color: rgb(0, 0, 0);
-    overflow: hidden; /* disables scrolling */
+    text-shadow: 3px 4px 2px rgba(0, 0, 0, 0.623);
+    color: rgba(255, 255, 255, 0.785);
+    /* overflow: hidden;  disables scrolling */
+    font-family: sans-serif;
 }
 
 #card {
+    margin-left: 10%;
+    margin-right: auto;
 }
 
+/* note: fix animations! */
 main h1{
+    letter-spacing: 2px;
+    font-size: 50px;
     animation: visibility 3s steps(40, end);
-    animation: shadow-visibility 3s steps(40, end);
+    animation: shadow-visibility 2.5s;
 }
 
 main p {
-    font-weight: bold;
-    animation: visibility 6s steps(40, end);
-    animation: shadow-visibility 6s steps(40, end);
-}
-
-/* work on text and shadow appearance animations */
-.text_animate {
-    font-weight: bold;
-    animation: visibility 5s steps(40, end);
-    animation: shadow-visibility 5s steps(40, end);
-    
+    letter-spacing: 1px;
+    animation: visibility 2s;
+    animation: shadow-visibility 2s;
 }
 
 @keyframes visibility {
@@ -43,8 +41,4 @@ main p {
 @keyframes shadow-visibility {
     from { opacity: 0;}
     to { opacity: 1;}
-}
-
-body {
-    text-align: center;
 }
