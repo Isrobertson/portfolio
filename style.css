@@ -1,5 +1,13 @@
-nav {
-    /* nav needs content */
+nav a {
+    color: darkgray;
+}
+
+nav a:hover {
+    color: rgb(231, 231, 231);
+}
+
+nav a:active {
+    color: rgb(58, 58, 58);
 }
 
 body {
@@ -11,7 +19,7 @@ body {
     padding-bottom: 150px;
     text-shadow: 3px 4px 2px rgba(0, 0, 0, 0.623);
     color: rgba(255, 255, 255, 0.785);
-    /* overflow: hidden;  disables scrolling */
+    overflow: hidden;  /* this might change later*/
     font-family: sans-serif;
 }
 
