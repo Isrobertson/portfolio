@@ -4,7 +4,8 @@ nav {
 
 body {
     padding-left: 10%;
-    background-image: linear-gradient(rgb(40, 41, 51), rgb(103, 106, 125));
+    background-color: #2f3d54;
+    /*background-image: linear-gradient(#2f3d54, #556781); */
     height: 100vh;
     padding-top: 150px;
     padding-bottom: 150px;
