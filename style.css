@@ -32,14 +32,18 @@ body {
 main h1{
     letter-spacing: 2px;
     font-size: 50px;
+    /*
     animation: visibility 3s steps(40, end);
-    animation: shadow-visibility 2.5s;
+    animation: shadow-visibility 2.5s; 
+    */
 }
 
 main p {
     letter-spacing: 1px;
+    /*
     animation: visibility 2s;
     animation: shadow-visibility 2s;
+    */
 }
 
 @keyframes visibility {
